@@ -19,3 +19,14 @@ Before beginning, you must have GCC (GNU Compiler Collection) installed properly
 4. Replace `[price]` with the price of the good or service you are considering.
 5. Replace `[optional percentage]` with a custom percentage if you want to see another percentage calculated. *This is not required to run properly.*
 6. The program will calculate the tax and display the result.
+
+## Example
+Type: `./tax 59.99` in the terminal.
+
+Output should be:
+```
+TAX PERCENTAGE	│ TOTAL 	│ TAX SURCHARGE
+────────────────┼───────────────┼──────────────
+  8.25%		│ $64.94 	│ $4.95
+  6.25%		│ $63.74 	│ $3.75
+```
