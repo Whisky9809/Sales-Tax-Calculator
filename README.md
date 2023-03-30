@@ -1,4 +1,4 @@
-# Sales-Tax-Calculator
+# Sales Tax Calculator
 This command-line program calculates the amount of sales tax that needs to be applied to a given price. It can calculate the sales tax for two percentages (6.25%, 8.25%) as well as a custom percentage provided as an additional argument. The program then prints out the tax percentage, the total cost, and the tax surcharge for each of the tax percentages.
 
 The two percentages, 6.25% and 8.25%, were chosen because the minimum sales tax in Texas is 6.25%, while cities and counties are able to add an additional two percent, resulting in the maximum possible sales tax of 8.25%.
@@ -21,9 +21,9 @@ Before beginning, you must have GCC (GNU Compiler Collection) installed properly
 6. The program will calculate the tax and display the result.
 
 ## Example
-Type: `./tax 59.99` in the terminal.
+Type `./tax 59.99` in the terminal.
 
-Output should be:
+The output should be:
 ```
 TAX PERCENTAGE	│ TOTAL 	│ TAX SURCHARGE
 ────────────────┼───────────────┼──────────────
